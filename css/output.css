@@ -1,7 +1,8 @@
-section-headers, .about h3 {
+section-headers, .films .howl #howl-sec h3, .films .spirit #spirit-sec h3, .films .kiki #kiki-sec h3, .films .totoro #totoro-sec h3, .about h3 {
   text-align: center;
   font-size: 40px;
-  color: white; }
+  color: white;
+  text-shadow: 2px 2px 0px black; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -394,6 +395,79 @@ template {
 [hidden] {
   display: none; }
 
+.films {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+  height: 120vh; }
+  .films .howl {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    background-color: #E9B000;
+    height: 60vh; }
+    .films .howl #howl-sec {
+      background-image: url("../img/howl.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .howl #howl-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
+  .films .spirit {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    background-color: #EB6E80;
+    height: 60vh; }
+    .films .spirit #spirit-sec {
+      background-image: url("../img/spirit.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .spirit #spirit-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
+  .films .kiki {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    background-color: #008F95;
+    height: 60vh; }
+    .films .kiki #kiki-sec {
+      background-image: url("../img/kiki.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .kiki #kiki-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
+  .films .totoro {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    background-color: #E24E42;
+    height: 60vh; }
+    .films .totoro #totoro-sec {
+      background-image: url("../img/totoro.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .totoro #totoro-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
+
 .nav {
   border: 1px solid red; }
 
@@ -499,7 +573,7 @@ template {
   margin-right: -20px;
   width: calc(100% + 40px);
   height: 60vh;
-  background-color: #E9B000; }
+  background-color: #E24E42; }
   .about .portrait {
     width: calc(33.33333% - 26.66667px);
     float: left;
@@ -510,11 +584,12 @@ template {
     background-repeat: no-repeat;
     height: 65%;
     border-radius: 100%;
-    border: 4px solid black; }
+    border: 4px solid white; }
   .about p {
     width: calc(66.66667% - 33.33333px);
     float: left;
     margin-left: 20px;
-    color: white; }
+    color: white;
+    padding-right: 10px; }
 
 /*# sourceMappingURL=output.css.map */

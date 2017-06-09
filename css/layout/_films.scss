@@ -1,0 +1,103 @@
+.films {
+  @include grid-column(12);
+  @include grid-collapse;
+
+  height: 120vh;
+
+  .howl {
+    @include grid-column(12);
+    background-color: $mustard;
+    height: 60vh;
+
+    #howl-sec {
+      background-image: url('../img/howl.gif');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center;
+
+      h3{
+        @extend section-headers;
+        margin-top: 0;
+        padding-top: 15vh;
+      }
+
+    }
+
+
+
+  }
+
+  .spirit {
+    @include grid-column(12);
+    background-color: $blush;
+    height: 60vh;
+
+
+
+    #spirit-sec {
+      background-image: url('../img/spirit.gif');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center;
+
+      h3{
+        @extend section-headers;
+        margin-top: 0;
+        padding-top: 15vh;
+      }
+
+    }
+
+  }
+
+  .kiki {
+    @include grid-column(12);
+    background-color: $aqua;
+    height: 60vh;
+
+    #kiki-sec {
+      background-image: url('../img/kiki.gif');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center;
+
+      h3{
+        @extend section-headers;
+        margin-top: 0;
+        padding-top: 15vh;
+      }
+
+    }
+
+  }
+
+  .totoro {
+    @include grid-column(12);
+    background-color: $papaya;
+    height: 60vh;
+
+
+    #totoro-sec {
+      background-image: url('../img/totoro.gif');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center;
+
+      h3{
+        @extend section-headers;
+        margin-top: 0;
+        padding-top: 15vh;
+      }
+
+    }
+
+  }
+}
