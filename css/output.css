@@ -433,6 +433,9 @@ template {
     margin-left: 0px;
     height: 45vh;
     text-align: center; }
+    @media only screen and (min-width: 1024px) {
+      .merch .item1 {
+        height: 60vh; } }
     .merch .item1 #item1 {
       background-image: url("../img/shirt.jpg");
       background-position: center;
@@ -441,12 +444,18 @@ template {
       height: 15vh; }
     .merch .item1 .item-description p {
       font-size: 25px; }
+      @media only screen and (min-width: 1024px) {
+        .merch .item1 .item-description p {
+          font-size: 15px; } }
   .merch .item2 {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
     height: 45vh;
     text-align: center; }
+    @media only screen and (min-width: 1024px) {
+      .merch .item2 {
+        height: 60vh; } }
     .merch .item2 #item2 {
       background-image: url("../img/phone.jpg");
       background-position: center;
@@ -455,12 +464,18 @@ template {
       height: 15vh; }
     .merch .item2 .item-description p {
       font-size: 25px; }
+      @media only screen and (min-width: 1024px) {
+        .merch .item2 .item-description p {
+          font-size: 15px; } }
   .merch .item3 {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
     height: 45vh;
     text-align: center; }
+    @media only screen and (min-width: 1024px) {
+      .merch .item3 {
+        height: 60vh; } }
     .merch .item3 #item3 {
       background-image: url("../img/bag.jpg");
       background-position: center;
@@ -469,6 +484,9 @@ template {
       height: 15vh; }
     .merch .item3 .item-description p {
       font-size: 25px; }
+      @media only screen and (min-width: 1024px) {
+        .merch .item3 .item-description p {
+          font-size: 15px; } }
 
 .films {
   width: calc(100%);
@@ -480,6 +498,11 @@ template {
     margin-bottom: 0px; }
   .films .howl {
     height: 50vh; }
+    @media only screen and (min-width: 1024px) {
+      .films .howl {
+        width: calc(50%);
+        float: left;
+        margin-left: 0px; } }
     .films .howl #howl-sec {
       background-image: url("../img/howl.gif");
       background-position: center;
@@ -492,8 +515,16 @@ template {
         padding-top: 15vh; }
     .films .howl p {
       font-size: 30px; }
+      @media only screen and (min-width: 1024px) {
+        .films .howl p {
+          font-size: 15px; } }
   .films .spirit {
     height: 50vh; }
+    @media only screen and (min-width: 1024px) {
+      .films .spirit {
+        width: calc(50%);
+        float: left;
+        margin-left: 0px; } }
     .films .spirit #spirit-sec {
       background-image: url("../img/spirit.gif");
       background-position: center;
@@ -506,8 +537,16 @@ template {
         padding-top: 15vh; }
     .films .spirit p {
       font-size: 30px; }
+      @media only screen and (min-width: 1024px) {
+        .films .spirit p {
+          font-size: 15px; } }
   .films .kiki {
     height: 50vh; }
+    @media only screen and (min-width: 1024px) {
+      .films .kiki {
+        width: calc(50%);
+        float: left;
+        margin-left: 0px; } }
     .films .kiki #kiki-sec {
       background-image: url("../img/kiki.gif");
       background-position: center;
@@ -520,8 +559,16 @@ template {
         padding-top: 15vh; }
     .films .kiki p {
       font-size: 30px; }
+      @media only screen and (min-width: 1024px) {
+        .films .kiki p {
+          font-size: 15px; } }
   .films .totoro {
     height: 50vh; }
+    @media only screen and (min-width: 1024px) {
+      .films .totoro {
+        width: calc(50%);
+        float: left;
+        margin-left: 0px; } }
     .films .totoro #totoro-sec {
       background-image: url("../img/totoro.gif");
       background-position: center;
@@ -534,6 +581,9 @@ template {
         padding-top: 15vh; }
     .films .totoro p {
       font-size: 30px; }
+      @media only screen and (min-width: 1024px) {
+        .films .totoro p {
+          font-size: 15px; } }
 
 .hero-image {
   width: calc(100%);
@@ -550,11 +600,17 @@ template {
     text-shadow: 3px 3px 0px black;
     font-size: 20vw;
     margin: auto 0; }
+    @media only screen and (min-width: 1024px) {
+      .hero-image #title {
+        font-size: 15vw; } }
   .hero-image #subtitle {
     color: white;
     text-shadow: 2px 2px 0px black;
     font-size: 5vw;
     margin: auto 0; }
+    @media only screen and (min-width: 1024px) {
+      .hero-image #subtitle {
+        font-size: 3vw; } }
 
 .nav {
   width: calc(100%);
@@ -604,9 +660,14 @@ template {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 65%;
+      height: 30vh;
+      margin-left: 20px;
+      margin-bottom: 20px;
       border-radius: 100%;
       border: 4px solid white; }
+      @media only screen and (min-width: 1024px) {
+        .biography .about .portrait {
+          height: 70vh; } }
     .biography .about p {
       width: calc(50%);
       float: left;

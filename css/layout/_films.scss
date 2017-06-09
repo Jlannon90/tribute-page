@@ -10,6 +10,9 @@
 
   .howl {
     height: 50vh;
+    @include laptop-breakpoint {
+      @include grid-column(6);
+    }
 
     #howl-sec {
       background-image: url('../img/howl.gif');
@@ -30,6 +33,10 @@
     p {
       @extend .p-styling;
       font-size: 30px;
+
+      @include laptop-breakpoint {
+        font-size: 15px;
+      }
     }
 
 
@@ -38,6 +45,9 @@
 
   .spirit {
     height: 50vh;
+    @include laptop-breakpoint {
+      @include grid-column(6);
+    }
 
     #spirit-sec {
       background-image: url('../img/spirit.gif');
@@ -58,12 +68,19 @@
     p {
       @extend .p-styling;
       font-size: 30px;
+
+      @include laptop-breakpoint {
+        font-size: 15px;
+      }
     }
 
   }
 
   .kiki {
     height: 50vh;
+    @include laptop-breakpoint {
+      @include grid-column(6);
+    }
 
     #kiki-sec {
       background-image: url('../img/kiki.gif');
@@ -84,6 +101,10 @@
     p {
       @extend .p-styling;
       font-size: 30px;
+
+      @include laptop-breakpoint {
+        font-size: 15px;
+      }
     }
 
 
@@ -91,6 +112,9 @@
 
   .totoro {
     height: 50vh;
+    @include laptop-breakpoint {
+      @include grid-column(6);
+    }
 
 
     #totoro-sec {
@@ -111,6 +135,10 @@
     p {
       @extend .p-styling;
       font-size: 30px;
+
+      @include laptop-breakpoint {
+        font-size: 15px;
+      }
     }
 
 

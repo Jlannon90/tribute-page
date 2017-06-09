@@ -6,7 +6,13 @@ $blush: #EB6E80;
 $papaya: #E24E42;
 
 // CUSTOM NEAT GRID
+
 $neat-grid: (
   columns: 12,
   gutter: 0px,
 );
+
+
+// MEDIA QUERIES
+
+$laptop-breakpoint: "only screen and (min-width:1024px)";

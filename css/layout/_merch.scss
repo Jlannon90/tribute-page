@@ -12,6 +12,9 @@
     @include grid-column(4);
     height: 45vh;
     text-align: center;
+    @include laptop-breakpoint {
+      height: 60vh;
+    }
 
     h4 {
       @extend .item-headers;
@@ -30,6 +33,9 @@
       p {
         @extend .p-styling;
         font-size: 25px;
+        @include laptop-breakpoint {
+          font-size: 15px;
+        }
       }
     }
 
@@ -43,6 +49,9 @@
     @include grid-column(4);
     height: 45vh;
     text-align: center;
+    @include laptop-breakpoint {
+      height: 60vh;
+    }
 
     h4 {
       @extend .item-headers;
@@ -61,6 +70,9 @@
       p {
         @extend .p-styling;
         font-size: 25px;
+        @include laptop-breakpoint {
+          font-size: 15px;
+        }
       }
     }
 
@@ -73,6 +85,9 @@
     @include grid-column(4);
     height: 45vh;
     text-align: center;
+    @include laptop-breakpoint {
+      height: 60vh;
+    }
 
     h4 {
       @extend .item-headers;
@@ -91,6 +106,9 @@
       p {
         @extend .p-styling;
         font-size: 25px;
+        @include laptop-breakpoint {
+          font-size: 15px;
+        }
       }
     }
 
