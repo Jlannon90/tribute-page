@@ -422,7 +422,7 @@ template {
 .merch {
   width: calc(100%);
   float: left;
-  margin-left: 0px;
+  margin-left: 0;
   background-color: #EB6E80; }
   .merch h3 {
     color: #EB6E80;
@@ -430,10 +430,10 @@ template {
   .merch .item1 {
     width: calc(33.33333%);
     float: left;
-    margin-left: 0px;
+    margin-left: 0;
     height: 45vh;
     text-align: center; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .merch .item1 {
         height: 60vh; } }
     .merch .item1 #item1 {
@@ -444,16 +444,16 @@ template {
       height: 15vh; }
     .merch .item1 .item-description p {
       font-size: 25px; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .merch .item1 .item-description p {
           font-size: 15px; } }
   .merch .item2 {
     width: calc(33.33333%);
     float: left;
-    margin-left: 0px;
+    margin-left: 0;
     height: 45vh;
     text-align: center; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .merch .item2 {
         height: 60vh; } }
     .merch .item2 #item2 {
@@ -464,16 +464,16 @@ template {
       height: 15vh; }
     .merch .item2 .item-description p {
       font-size: 25px; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .merch .item2 .item-description p {
           font-size: 15px; } }
   .merch .item3 {
     width: calc(33.33333%);
     float: left;
-    margin-left: 0px;
+    margin-left: 0;
     height: 45vh;
     text-align: center; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .merch .item3 {
         height: 60vh; } }
     .merch .item3 #item3 {
@@ -484,25 +484,25 @@ template {
       height: 15vh; }
     .merch .item3 .item-description p {
       font-size: 25px; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .merch .item3 .item-description p {
           font-size: 15px; } }
 
 .films {
   width: calc(100%);
   float: left;
-  margin-left: 0px;
+  margin-left: 0;
   background-color: #E9B000; }
   .films h3 {
     color: #E9B000;
     margin-bottom: 0px; }
   .films .howl {
     height: 50vh; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .films .howl {
         width: calc(50%);
         float: left;
-        margin-left: 0px; } }
+        margin-left: 0; } }
     .films .howl #howl-sec {
       background-image: url("../img/howl.gif");
       background-position: center;
@@ -515,16 +515,16 @@ template {
         padding-top: 15vh; }
     .films .howl p {
       font-size: 30px; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .films .howl p {
           font-size: 15px; } }
   .films .spirit {
     height: 50vh; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .films .spirit {
         width: calc(50%);
         float: left;
-        margin-left: 0px; } }
+        margin-left: 0; } }
     .films .spirit #spirit-sec {
       background-image: url("../img/spirit.gif");
       background-position: center;
@@ -537,16 +537,16 @@ template {
         padding-top: 15vh; }
     .films .spirit p {
       font-size: 30px; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .films .spirit p {
           font-size: 15px; } }
   .films .kiki {
     height: 50vh; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .films .kiki {
         width: calc(50%);
         float: left;
-        margin-left: 0px; } }
+        margin-left: 0; } }
     .films .kiki #kiki-sec {
       background-image: url("../img/kiki.gif");
       background-position: center;
@@ -559,16 +559,16 @@ template {
         padding-top: 15vh; }
     .films .kiki p {
       font-size: 30px; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .films .kiki p {
           font-size: 15px; } }
   .films .totoro {
     height: 50vh; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .films .totoro {
         width: calc(50%);
         float: left;
-        margin-left: 0px; } }
+        margin-left: 0; } }
     .films .totoro #totoro-sec {
       background-image: url("../img/totoro.gif");
       background-position: center;
@@ -581,14 +581,14 @@ template {
         padding-top: 15vh; }
     .films .totoro p {
       font-size: 30px; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .films .totoro p {
           font-size: 15px; } }
 
 .hero-image {
   width: calc(100%);
   float: left;
-  margin-left: 0px;
+  margin-left: 0;
   background-image: url("../img/hero.jpg");
   background-position: center;
   background-size: cover;
@@ -600,7 +600,7 @@ template {
     text-shadow: 3px 3px 0px black;
     font-size: 20vw;
     margin: auto 0; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .hero-image #title {
         font-size: 15vw; } }
   .hero-image #subtitle {
@@ -608,26 +608,27 @@ template {
     text-shadow: 2px 2px 0px black;
     font-size: 5vw;
     margin: auto 0; }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 768px) {
       .hero-image #subtitle {
         font-size: 3vw; } }
 
 .nav {
   width: calc(100%);
   float: left;
-  margin-left: 0px;
+  margin-left: 0;
   height: 70px;
   background-color: #008F95; }
   .nav .logo {
     width: calc(16.66667%);
     float: left;
-    margin-left: 0px; }
+    margin-left: 0; }
     .nav .logo img {
-      height: 60px; }
+      height: 60px;
+      padding-top: 5px; }
   .nav .page-links {
     width: calc(83.33333%);
     float: left;
-    margin-left: 0px;
+    margin-left: 0;
     text-align: right; }
     .nav .page-links li {
       list-style-type: none;
@@ -646,16 +647,16 @@ template {
 .biography {
   width: calc(100%);
   float: left;
-  margin-left: 0px;
+  margin-left: 0;
   background-color: #E24E42; }
   .biography h3 {
     color: #E24E42; }
   .biography .about {
-    height: 30vh; }
+    height: 70vh; }
     .biography .about .portrait {
       width: calc(41.66667%);
       float: left;
-      margin-left: 0px;
+      margin-left: 0;
       background-image: url("../img/portrait.jpeg");
       background-position: center;
       background-size: cover;
@@ -667,13 +668,13 @@ template {
       border: 6px solid white;
       border-bottom-color: #008F95;
       border-left-color: #008F95; }
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 768px) {
         .biography .about .portrait {
           height: 70vh; } }
     .biography .about p {
-      width: calc(50%);
+      width: calc(41.66667%);
       float: left;
-      margin-left: 0px;
+      margin-left: 0;
       margin-left: 30px;
       font-size: 25px; }
 

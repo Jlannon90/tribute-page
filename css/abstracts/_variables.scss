@@ -9,10 +9,10 @@ $papaya: #E24E42;
 
 $neat-grid: (
   columns: 12,
-  gutter: 0px,
+  gutter: 0,
 );
 
 
 // MEDIA QUERIES
 
-$laptop-breakpoint: "only screen and (min-width:1024px)";
+$tablet-breakpoint: "only screen and (min-width:768px)";
