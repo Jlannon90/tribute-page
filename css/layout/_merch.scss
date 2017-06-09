@@ -4,11 +4,13 @@
 
   h3 {
     @extend .section-headers;
+    color: $blush;
+    margin-bottom: 0px;
   }
 
   .item1 {
     @include grid-column(4);
-    height: 60vh;
+    height: 45vh;
     text-align: center;
 
     h4 {
@@ -27,6 +29,7 @@
     .item-description {
       p {
         @extend .p-styling;
+        font-size: 25px;
       }
     }
 
@@ -38,7 +41,7 @@
 
   .item2 {
     @include grid-column(4);
-    height: 60vh;
+    height: 45vh;
     text-align: center;
 
     h4 {
@@ -57,6 +60,7 @@
     .item-description {
       p {
         @extend .p-styling;
+        font-size: 25px;
       }
     }
 
@@ -67,7 +71,7 @@
 
   .item3 {
     @include grid-column(4);
-    height: 60vh;
+    height: 45vh;
     text-align: center;
 
     h4 {
@@ -86,6 +90,7 @@
     .item-description {
       p {
         @extend .p-styling;
+        font-size: 25px;
       }
     }
 

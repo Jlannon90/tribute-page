@@ -1,8 +1,17 @@
 .section-headers {
   text-align: center;
   font-size: 40px;
+  height: 40px;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.film-titles {
+  text-align: center;
+  font-size: 36px;
   color: white;
-  text-shadow: 2px 2px 0px black;
 }
 
 .p-styling {

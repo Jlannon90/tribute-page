@@ -1,14 +1,16 @@
 
 .nav {
   @include grid-column(12);
-  height: 60px;
+  height: 70px;
   background-color: $aqua;
+
 
   .logo {
     @include grid-column(2);
     img {
       height: 60px;
     }
+
   }
 
   .page-links {

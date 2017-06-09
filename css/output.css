@@ -1,10 +1,18 @@
-.section-headers, .merch h3, .films h3, .films .howl #howl-sec h3, .films .spirit #spirit-sec h3, .films .kiki #kiki-sec h3, .films .totoro #totoro-sec h3, .about h3 {
+.section-headers, .merch h3, .films h3, .biography h3 {
   text-align: center;
   font-size: 40px;
-  color: white;
-  text-shadow: 2px 2px 0px black; }
+  height: 40px;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white; }
 
-.p-styling, .merch .item1 .item-description p, .merch .item2 .item-description p, .merch .item3 .item-description p, .films .howl p, .films .spirit p, .films .kiki p, .films .totoro p, .about p {
+.film-titles, .films .howl #howl-sec h4, .films .spirit #spirit-sec h4, .films .kiki #kiki-sec h4, .films .totoro #totoro-sec h4 {
+  text-align: center;
+  font-size: 36px;
+  color: white; }
+
+.p-styling, .merch .item1 .item-description p, .merch .item2 .item-description p, .merch .item3 .item-description p, .films .howl p, .films .spirit p, .films .kiki p, .films .totoro p, .biography .about p {
   color: white;
   padding: 10px; }
 
@@ -416,11 +424,14 @@ template {
   float: left;
   margin-left: 0px;
   background-color: #EB6E80; }
+  .merch h3 {
+    color: #EB6E80;
+    margin-bottom: 0px; }
   .merch .item1 {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
-    height: 60vh;
+    height: 45vh;
     text-align: center; }
     .merch .item1 #item1 {
       background-image: url("../img/shirt.jpg");
@@ -428,11 +439,13 @@ template {
       background-size: contain;
       background-repeat: no-repeat;
       height: 15vh; }
+    .merch .item1 .item-description p {
+      font-size: 25px; }
   .merch .item2 {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
-    height: 60vh;
+    height: 45vh;
     text-align: center; }
     .merch .item2 #item2 {
       background-image: url("../img/phone.jpg");
@@ -440,11 +453,13 @@ template {
       background-size: contain;
       background-repeat: no-repeat;
       height: 15vh; }
+    .merch .item2 .item-description p {
+      font-size: 25px; }
   .merch .item3 {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
-    height: 60vh;
+    height: 45vh;
     text-align: center; }
     .merch .item3 #item3 {
       background-image: url("../img/bag.jpg");
@@ -452,60 +467,73 @@ template {
       background-size: contain;
       background-repeat: no-repeat;
       height: 15vh; }
+    .merch .item3 .item-description p {
+      font-size: 25px; }
 
 .films {
   width: calc(100%);
   float: left;
   margin-left: 0px;
   background-color: #E9B000; }
+  .films h3 {
+    color: #E9B000;
+    margin-bottom: 0px; }
   .films .howl {
-    height: 60vh; }
+    height: 50vh; }
     .films .howl #howl-sec {
       background-image: url("../img/howl.gif");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 40vh;
+      height: 30vh;
       text-align: center; }
-      .films .howl #howl-sec h3 {
+      .films .howl #howl-sec h4 {
         margin-top: 0;
         padding-top: 15vh; }
+    .films .howl p {
+      font-size: 30px; }
   .films .spirit {
-    height: 60vh; }
+    height: 50vh; }
     .films .spirit #spirit-sec {
       background-image: url("../img/spirit.gif");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 40vh;
+      height: 30vh;
       text-align: center; }
-      .films .spirit #spirit-sec h3 {
+      .films .spirit #spirit-sec h4 {
         margin-top: 0;
         padding-top: 15vh; }
+    .films .spirit p {
+      font-size: 30px; }
   .films .kiki {
-    height: 60vh; }
+    height: 50vh; }
     .films .kiki #kiki-sec {
       background-image: url("../img/kiki.gif");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 40vh;
+      height: 30vh;
       text-align: center; }
-      .films .kiki #kiki-sec h3 {
+      .films .kiki #kiki-sec h4 {
         margin-top: 0;
         padding-top: 15vh; }
+    .films .kiki p {
+      font-size: 30px; }
   .films .totoro {
-    height: 60vh; }
+    height: 50vh; }
     .films .totoro #totoro-sec {
       background-image: url("../img/totoro.gif");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 40vh;
+      height: 30vh;
       text-align: center; }
-      .films .totoro #totoro-sec h3 {
+      .films .totoro #totoro-sec h4 {
         margin-top: 0;
         padding-top: 15vh; }
+    .films .totoro p {
+      font-size: 30px; }
 
 .hero-image {
   width: calc(100%);
@@ -532,7 +560,7 @@ template {
   width: calc(100%);
   float: left;
   margin-left: 0px;
-  height: 60px;
+  height: 70px;
   background-color: #008F95; }
   .nav .logo {
     width: calc(16.66667%);
@@ -559,27 +587,31 @@ template {
         .nav .page-links li a:hover {
           font-size: 24px; }
 
-.about {
+.biography {
   width: calc(100%);
   float: left;
   margin-left: 0px;
-  height: 60vh;
   background-color: #E24E42; }
-  .about .portrait {
-    width: calc(33.33333%);
-    float: left;
-    margin-left: 0px;
-    background-image: url("../img/portrait.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 65%;
-    border-radius: 100%;
-    border: 4px solid white; }
-  .about p {
-    width: calc(50%);
-    float: left;
-    margin-left: 0px;
-    margin-left: 30px; }
+  .biography h3 {
+    color: #E24E42; }
+  .biography .about {
+    height: 30vh; }
+    .biography .about .portrait {
+      width: calc(41.66667%);
+      float: left;
+      margin-left: 0px;
+      background-image: url("../img/portrait.jpeg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 65%;
+      border-radius: 100%;
+      border: 4px solid white; }
+    .biography .about p {
+      width: calc(50%);
+      float: left;
+      margin-left: 0px;
+      margin-left: 30px;
+      font-size: 25px; }
 
 /*# sourceMappingURL=output.css.map */
