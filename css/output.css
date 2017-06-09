@@ -429,15 +429,21 @@ template {
   border: 1px solid blue; }
 
 .hero-image {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
   background-image: url("../img/hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 60vh;
   text-align: center; }
   .hero-image #title {
     color: white;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 3px 3px 0px black;
     font-size: 20vw;
     margin: auto 0; }
   .hero-image #subtitle {
@@ -445,5 +451,39 @@ template {
     text-shadow: 2px 2px 0px black;
     font-size: 5vw;
     margin: auto 0; }
+
+.nav {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+  height: 60px; }
+  .nav .logo {
+    width: calc(16.66667% - 23.33333px);
+    float: left;
+    margin-left: 20px; }
+    .nav .logo img {
+      height: 60px; }
+  .nav .page-links {
+    width: calc(83.33333% - 36.66667px);
+    float: left;
+    margin-left: 20px;
+    text-align: right; }
+    .nav .page-links li {
+      list-style-type: none;
+      display: inline-block;
+      text-align: right;
+      padding-right: 2vw;
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold; }
+      .nav .page-links li a {
+        text-decoration: none;
+        color: black; }
+        .nav .page-links li a:hover {
+          color: red;
+          font-size: 24px; }
 
 /*# sourceMappingURL=output.css.map */

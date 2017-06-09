@@ -1,1 +1,40 @@
 
+.nav {
+  @include grid-column(12);
+  @include grid-collapse;
+  height: 60px;
+
+  .logo {
+    @include grid-column(2);
+    img {
+      height: 60px;
+    }
+  }
+
+  .page-links {
+    @include grid-column(10);
+    text-align: right;
+
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      text-align: right;
+      padding-right: 2vw;
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+          color: red;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+}
