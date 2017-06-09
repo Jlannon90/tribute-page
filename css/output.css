@@ -1,8 +1,12 @@
-section-headers, .howl #howl-sec h3, .spirit #spirit-sec h3, .kiki #kiki-sec h3, .totoro #totoro-sec h3, .about h3 {
+.section-headers, .merch h3, .films h3, .films .howl #howl-sec h3, .films .spirit #spirit-sec h3, .films .kiki #kiki-sec h3, .films .totoro #totoro-sec h3, .about h3 {
   text-align: center;
   font-size: 40px;
   color: white;
   text-shadow: 2px 2px 0px black; }
+
+.p-styling, .films .howl p, .films .spirit p, .films .kiki p, .films .totoro p, .about p {
+  color: white;
+  padding: 10px; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -398,114 +402,77 @@ template {
 .merch {
   width: calc(100%);
   float: left;
-  margin-left: 0px; }
-
-.howl {
-  width: calc(100%);
-  float: left;
   margin-left: 0px;
-  background-color: #E9B000;
-  height: 60vh; }
-  .howl #howl-sec {
-    background-image: url("../img/howl.gif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    text-align: center; }
-    .howl #howl-sec h3 {
-      margin-top: 0;
-      padding-top: 15vh; }
-
-.spirit {
-  width: calc(100%);
-  float: left;
-  margin-left: 0px;
-  background-color: #EB6E80;
-  height: 60vh; }
-  .spirit #spirit-sec {
-    background-image: url("../img/spirit.gif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    text-align: center; }
-    .spirit #spirit-sec h3 {
-      margin-top: 0;
-      padding-top: 15vh; }
-
-.kiki {
-  width: calc(100%);
-  float: left;
-  margin-left: 0px;
-  background-color: #008F95;
-  height: 60vh; }
-  .kiki #kiki-sec {
-    background-image: url("../img/kiki.gif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    text-align: center; }
-    .kiki #kiki-sec h3 {
-      margin-top: 0;
-      padding-top: 15vh; }
-
-.totoro {
-  width: calc(100%);
-  float: left;
-  margin-left: 0px;
-  background-color: #E24E42;
-  height: 60vh; }
-  .totoro #totoro-sec {
-    background-image: url("../img/totoro.gif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    text-align: center; }
-    .totoro #totoro-sec h3 {
-      margin-top: 0;
-      padding-top: 15vh; }
-
-.nav {
-  border: 1px solid red; }
-
-.hero-image {
-  border: 1px solid blue; }
-
-.content-container {
-  border: 1px solid green; }
-
-.about {
-  border: 1px solid purple; }
+  background-color: #EB6E80; }
+  .merch .item1 {
+    width: calc(33.33333%);
+    float: left;
+    margin-left: 0px;
+    height: 60vh; }
+  .merch .item2 {
+    width: calc(33.33333%);
+    float: left;
+    margin-left: 0px;
+    height: 60vh; }
+  .merch .item3 {
+    width: calc(33.33333%);
+    float: left;
+    margin-left: 0px;
+    height: 60vh; }
 
 .films {
-  border: 1px dashed purple; }
-
-.howl {
-  border: 1px solid blue; }
-
-.spirit {
-  border: 1px solid blue; }
-
-.kiki {
-  border: 1px solid blue; }
-
-.totoro {
-  border: 1px solid blue; }
-
-.merch {
-  border: 1px dashed purple; }
-
-.item1 {
-  border: 1px solid blue; }
-
-.item2 {
-  border: 1px solid blue; }
-
-.item3 {
-  border: 1px solid blue; }
+  width: calc(100%);
+  float: left;
+  margin-left: 0px;
+  background-color: #E9B000; }
+  .films .howl {
+    height: 60vh; }
+    .films .howl #howl-sec {
+      background-image: url("../img/howl.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .howl #howl-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
+  .films .spirit {
+    height: 60vh; }
+    .films .spirit #spirit-sec {
+      background-image: url("../img/spirit.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .spirit #spirit-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
+  .films .kiki {
+    height: 60vh; }
+    .films .kiki #kiki-sec {
+      background-image: url("../img/kiki.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .kiki #kiki-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
+  .films .totoro {
+    height: 60vh; }
+    .films .totoro #totoro-sec {
+      background-image: url("../img/totoro.gif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      text-align: center; }
+      .films .totoro #totoro-sec h3 {
+        margin-top: 0;
+        padding-top: 15vh; }
 
 .hero-image {
   width: calc(100%);
@@ -580,7 +547,6 @@ template {
     width: calc(50%);
     float: left;
     margin-left: 0px;
-    color: white;
     margin-left: 30px; }
 
 /*# sourceMappingURL=output.css.map */

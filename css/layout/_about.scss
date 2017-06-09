@@ -5,7 +5,7 @@
 
 
   h3 {
-    @extend section-headers;
+    @extend .section-headers;
   }
 
   .portrait {
@@ -22,8 +22,9 @@
 
   p {
     @include grid-column(6);
-    color: white;
     margin-left: 30px;
+    @extend .p-styling;
+
 
   }
 }
