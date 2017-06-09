@@ -1,3 +1,8 @@
+section-headers, .about h3 {
+  text-align: center;
+  font-size: 40px;
+  color: white; }
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -459,7 +464,8 @@ template {
   margin-left: -20px;
   margin-right: -20px;
   width: calc(100% + 40px);
-  height: 60px; }
+  height: 60px;
+  background-color: #008F95; }
   .nav .logo {
     width: calc(16.66667% - 23.33333px);
     float: left;
@@ -481,9 +487,34 @@ template {
       font-weight: bold; }
       .nav .page-links li a {
         text-decoration: none;
-        color: black; }
+        color: white; }
         .nav .page-links li a:hover {
-          color: red;
           font-size: 24px; }
+
+.about {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+  height: 60vh;
+  background-color: #E9B000; }
+  .about .portrait {
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+    background-image: url("../img/portrait.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65%;
+    border-radius: 100%;
+    border: 4px solid black; }
+  .about p {
+    width: calc(66.66667% - 33.33333px);
+    float: left;
+    margin-left: 20px;
+    color: white; }
 
 /*# sourceMappingURL=output.css.map */

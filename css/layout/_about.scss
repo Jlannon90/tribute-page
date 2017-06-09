@@ -1,0 +1,28 @@
+.about {
+  @include grid-column(12);
+  @include grid-collapse;
+  height: 60vh;
+  background-color: $mustard;
+
+
+  h3 {
+    @extend section-headers;
+  }
+
+  .portrait {
+    @include grid-column(4);
+    background-image: url('../img/portrait.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65%;
+    border-radius: 100%;
+    border: 4px solid black;
+
+  }
+
+  p {
+    @include grid-column(8);
+    color: white;
+  }
+}
