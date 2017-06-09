@@ -1,4 +1,43 @@
 .nav {
+  border: 1px solid red; }
+
+.hero-image {
+  border: 1px solid blue; }
+
+.content-container {
+  border: 1px solid green; }
+
+.about {
+  border: 1px solid purple; }
+
+.films {
+  border: 1px dashed purple; }
+
+.howl {
+  border: 1px solid blue; }
+
+.spirit {
+  border: 1px solid blue; }
+
+.kiki {
+  border: 1px solid blue; }
+
+.totoro {
+  border: 1px solid blue; }
+
+.merch {
+  border: 1px dashed purple; }
+
+.item1 {
+  border: 1px solid blue; }
+
+.item2 {
+  border: 1px solid blue; }
+
+.item3 {
+  border: 1px solid blue; }
+
+.nav {
   width: 100%; }
 
 /*# sourceMappingURL=output.css.map */
