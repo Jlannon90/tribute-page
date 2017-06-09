@@ -1,7 +1,7 @@
 
 .hero-image {
   @include grid-column(12);
-  @include grid-collapse;
+
   background-image: url('../img/hero.jpg');
   background-position: center;
   background-size: cover;

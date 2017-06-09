@@ -1,7 +1,6 @@
 
 .nav {
   @include grid-column(12);
-  @include grid-collapse;
   height: 60px;
   background-color: $aqua;
 

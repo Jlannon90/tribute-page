@@ -1,11 +1,7 @@
-.films {
-  @include grid-column(12);
-  @include grid-collapse;
-
-  height: 120vh;
 
   .howl {
     @include grid-column(12);
+
     background-color: $mustard;
     height: 60vh;
 
@@ -100,4 +96,3 @@
     }
 
   }
-}
