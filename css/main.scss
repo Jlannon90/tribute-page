@@ -12,16 +12,17 @@
 
 @import
   'base/reset',
-  'base/typography';
+  'base/typography',
+  'base/normalize';
 
 @import
   'components/buttons',
   'components/dropdown';
 
 @import
-  'layout/footer',
-  'layout/forms',
+  'layout/merch',
+  'layout/films',
   'layout/grid',
-  'layout/header',
+  'layout/hero',
   'layout/navigation',
-  'layout/sidebar';
+  'layout/about';
