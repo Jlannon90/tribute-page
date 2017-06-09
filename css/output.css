@@ -4,9 +4,14 @@
   color: white;
   text-shadow: 2px 2px 0px black; }
 
-.p-styling, .films .howl p, .films .spirit p, .films .kiki p, .films .totoro p, .about p {
+.p-styling, .merch .item1 .item-description p, .merch .item2 .item-description p, .merch .item3 .item-description p, .films .howl p, .films .spirit p, .films .kiki p, .films .totoro p, .about p {
   color: white;
   padding: 10px; }
+
+.item-headers, .merch .item1 h4, .merch .item2 h4, .merch .item3 h4 {
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px black; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -399,6 +404,13 @@ template {
 [hidden] {
   display: none; }
 
+.buttons, .merch .item1 button, .merch .item2 button, .merch .item3 button {
+  background-color: #008F95;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  padding: 10px; }
+
 .merch {
   width: calc(100%);
   float: left;
@@ -408,17 +420,38 @@ template {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
-    height: 60vh; }
+    height: 60vh;
+    text-align: center; }
+    .merch .item1 #item1 {
+      background-image: url("../img/shirt.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 15vh; }
   .merch .item2 {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
-    height: 60vh; }
+    height: 60vh;
+    text-align: center; }
+    .merch .item2 #item2 {
+      background-image: url("../img/phone.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 15vh; }
   .merch .item3 {
     width: calc(33.33333%);
     float: left;
     margin-left: 0px;
-    height: 60vh; }
+    height: 60vh;
+    text-align: center; }
+    .merch .item3 #item3 {
+      background-image: url("../img/bag.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 15vh; }
 
 .films {
   width: calc(100%);

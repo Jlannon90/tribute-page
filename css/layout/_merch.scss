@@ -8,20 +8,90 @@
 
   .item1 {
     @include grid-column(4);
-
     height: 60vh;
+    text-align: center;
+
+    h4 {
+      @extend .item-headers;
+    }
+
+    #item1 {
+      background-image: url('../img/shirt.jpg');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 15vh;
+
+    }
+
+    .item-description {
+      p {
+        @extend .p-styling;
+      }
+    }
+
+    button {
+      @extend .buttons;
+    }
+
   }
 
   .item2 {
     @include grid-column(4);
-
     height: 60vh;
+    text-align: center;
+
+    h4 {
+      @extend .item-headers;
+    }
+
+    #item2 {
+      background-image: url('../img/phone.jpg');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 15vh;
+
+    }
+
+    .item-description {
+      p {
+        @extend .p-styling;
+      }
+    }
+
+    button {
+      @extend .buttons;
+    }
   }
 
   .item3 {
     @include grid-column(4);
-
     height: 60vh;
+    text-align: center;
+
+    h4 {
+      @extend .item-headers;
+    }
+
+    #item3 {
+      background-image: url('../img/bag.jpg');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 15vh;
+
+    }
+
+    .item-description {
+      p {
+        @extend .p-styling;
+      }
+    }
+
+    button {
+      @extend .buttons;
+    }
   }
 
 }
