@@ -8,32 +8,53 @@
   }
 
   .about {
-    height: 70vh;
+    overflow: auto;
+    overflow-y: hidden;
 
     .portrait {
-      @include grid-column(5);
+      @include grid-column(6);
       background-image: url('../img/portrait.jpeg');
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       height: 30vh;
-      margin-left: 20px;
-      margin-bottom: 20px;
+      margin-left: 20vw;
+      // margin-bottom: 20px;
       border-radius: 100%;
       border: 6px solid white;
       @include border-color(null null $aqua $aqua);
 
       @include tablet-breakpoint {
-        height: 70vh;
-
+        @include grid-column(3);
+        margin-left: 20px;
+        margin-bottom: 20px;
       }
+
+      @include laptop-breakpoint {
+        @include grid-column(2);
+        margin-left: 20px;
+      }
+
     }
 
     p {
-      @include grid-column(5);
-      margin-left: 30px;
+      @include grid-column(11);
       @extend .p-styling;
-      font-size: 25px;
+      font-size: 12px;
+      margin-left: 10px;
+
+      @include tablet-breakpoint {
+        @include grid-column(8);
+        font-size: 18px;
+        margin-top: 0;
+        margin-left: 10px;
+      }
+
+      @include laptop-breakpoint {
+        @include grid-column(9);
+        font-size: 26px;
+        margin-left: 10px;
+      }
     }
   }
 

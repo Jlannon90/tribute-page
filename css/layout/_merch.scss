@@ -1,6 +1,8 @@
 .merch {
   @include grid-column(12);
   background-color: $blush;
+  overflow: auto;
+  overflow-y: hidden;
 
   h3 {
     @extend .section-headers;
@@ -9,11 +11,12 @@
   }
 
   .item1 {
-    @include grid-column(4);
-    height: 45vh;
+    @include grid-column(12);
+    overflow: auto;
+    overflow-y: hidden;
     text-align: center;
     @include tablet-breakpoint {
-      height: 60vh;
+      @include grid-column(4);
     }
 
     h4 {
@@ -32,10 +35,8 @@
     .item-description {
       p {
         @extend .p-styling;
-        font-size: 25px;
-        @include tablet-breakpoint {
-          font-size: 15px;
-        }
+        font-size: 12px;
+
       }
     }
 
@@ -46,12 +47,14 @@
   }
 
   .item2 {
-    @include grid-column(4);
-    height: 45vh;
+    @include grid-column(12);
+    overflow: auto;
+    overflow-y: hidden;
     text-align: center;
     @include tablet-breakpoint {
-      height: 60vh;
+      @include grid-column(4);
     }
+
 
     h4 {
       @extend .item-headers;
@@ -69,10 +72,7 @@
     .item-description {
       p {
         @extend .p-styling;
-        font-size: 25px;
-        @include tablet-breakpoint {
-          font-size: 15px;
-        }
+        font-size: 12px;
       }
     }
 
@@ -82,11 +82,12 @@
   }
 
   .item3 {
-    @include grid-column(4);
-    height: 45vh;
+    @include grid-column(12);
+    overflow: auto;
+    overflow-y: hidden;
     text-align: center;
     @include tablet-breakpoint {
-      height: 60vh;
+      @include grid-column(4);
     }
 
     h4 {
@@ -105,10 +106,7 @@
     .item-description {
       p {
         @extend .p-styling;
-        font-size: 25px;
-        @include tablet-breakpoint {
-          font-size: 15px;
-        }
+        font-size: 12px;
       }
     }
 

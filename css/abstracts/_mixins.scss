@@ -3,3 +3,9 @@
     @content;
   }
 }
+
+@mixin laptop-breakpoint {
+  @media #{$laptop-breakpoint} {
+    @content;
+  }
+}

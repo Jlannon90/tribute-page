@@ -9,9 +9,13 @@
   }
 
   .howl {
-    height: 50vh;
+    overflow: auto;
+    overflow-y: hidden;
     @include tablet-breakpoint {
       @include grid-column(6);
+    }
+    @include laptop-breakpoint {
+      @include grid-column(3);
     }
 
     #howl-sec {
@@ -32,11 +36,8 @@
 
     p {
       @extend .p-styling;
-      font-size: 30px;
+      font-size: 12px;
 
-      @include tablet-breakpoint {
-        font-size: 15px;
-      }
     }
 
 
@@ -44,9 +45,13 @@
   }
 
   .spirit {
-    height: 50vh;
+    overflow: auto;
+    overflow-y: hidden;
     @include tablet-breakpoint {
       @include grid-column(6);
+    }
+    @include laptop-breakpoint {
+      @include grid-column(3);
     }
 
     #spirit-sec {
@@ -67,19 +72,19 @@
 
     p {
       @extend .p-styling;
-      font-size: 30px;
-
-      @include tablet-breakpoint {
-        font-size: 15px;
-      }
+      font-size: 12px;
     }
 
   }
 
   .kiki {
-    height: 50vh;
+    overflow: auto;
+    overflow-y: hidden;
     @include tablet-breakpoint {
       @include grid-column(6);
+    }
+    @include laptop-breakpoint {
+      @include grid-column(3);
     }
 
     #kiki-sec {
@@ -100,20 +105,20 @@
 
     p {
       @extend .p-styling;
-      font-size: 30px;
-
-      @include tablet-breakpoint {
-        font-size: 15px;
-      }
+      font-size: 12px;
     }
 
 
   }
 
   .totoro {
-    height: 50vh;
+    overflow: auto;
+    overflow-y: hidden;
     @include tablet-breakpoint {
       @include grid-column(6);
+    }
+    @include laptop-breakpoint {
+      @include grid-column(3);
     }
 
 
@@ -134,11 +139,7 @@
 
     p {
       @extend .p-styling;
-      font-size: 30px;
-
-      @include tablet-breakpoint {
-        font-size: 15px;
-      }
+      font-size: 12px;
     }
 
 

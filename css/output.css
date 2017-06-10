@@ -423,19 +423,24 @@ template {
   width: calc(100%);
   float: left;
   margin-left: 0;
-  background-color: #EB6E80; }
+  background-color: #EB6E80;
+  overflow: auto;
+  overflow-y: hidden; }
   .merch h3 {
     color: #EB6E80;
     margin-bottom: 0px; }
   .merch .item1 {
-    width: calc(33.33333%);
+    width: calc(100%);
     float: left;
     margin-left: 0;
-    height: 45vh;
+    overflow: auto;
+    overflow-y: hidden;
     text-align: center; }
     @media only screen and (min-width: 768px) {
       .merch .item1 {
-        height: 60vh; } }
+        width: calc(33.33333%);
+        float: left;
+        margin-left: 0; } }
     .merch .item1 #item1 {
       background-image: url("../img/shirt.jpg");
       background-position: center;
@@ -443,19 +448,19 @@ template {
       background-repeat: no-repeat;
       height: 15vh; }
     .merch .item1 .item-description p {
-      font-size: 25px; }
-      @media only screen and (min-width: 768px) {
-        .merch .item1 .item-description p {
-          font-size: 15px; } }
+      font-size: 12px; }
   .merch .item2 {
-    width: calc(33.33333%);
+    width: calc(100%);
     float: left;
     margin-left: 0;
-    height: 45vh;
+    overflow: auto;
+    overflow-y: hidden;
     text-align: center; }
     @media only screen and (min-width: 768px) {
       .merch .item2 {
-        height: 60vh; } }
+        width: calc(33.33333%);
+        float: left;
+        margin-left: 0; } }
     .merch .item2 #item2 {
       background-image: url("../img/phone.jpg");
       background-position: center;
@@ -463,19 +468,19 @@ template {
       background-repeat: no-repeat;
       height: 15vh; }
     .merch .item2 .item-description p {
-      font-size: 25px; }
-      @media only screen and (min-width: 768px) {
-        .merch .item2 .item-description p {
-          font-size: 15px; } }
+      font-size: 12px; }
   .merch .item3 {
-    width: calc(33.33333%);
+    width: calc(100%);
     float: left;
     margin-left: 0;
-    height: 45vh;
+    overflow: auto;
+    overflow-y: hidden;
     text-align: center; }
     @media only screen and (min-width: 768px) {
       .merch .item3 {
-        height: 60vh; } }
+        width: calc(33.33333%);
+        float: left;
+        margin-left: 0; } }
     .merch .item3 #item3 {
       background-image: url("../img/bag.jpg");
       background-position: center;
@@ -483,10 +488,7 @@ template {
       background-repeat: no-repeat;
       height: 15vh; }
     .merch .item3 .item-description p {
-      font-size: 25px; }
-      @media only screen and (min-width: 768px) {
-        .merch .item3 .item-description p {
-          font-size: 15px; } }
+      font-size: 12px; }
 
 .films {
   width: calc(100%);
@@ -497,10 +499,16 @@ template {
     color: #E9B000;
     margin-bottom: 0px; }
   .films .howl {
-    height: 50vh; }
+    overflow: auto;
+    overflow-y: hidden; }
     @media only screen and (min-width: 768px) {
       .films .howl {
         width: calc(50%);
+        float: left;
+        margin-left: 0; } }
+    @media only screen and (min-width: 1340px) {
+      .films .howl {
+        width: calc(25%);
         float: left;
         margin-left: 0; } }
     .films .howl #howl-sec {
@@ -514,15 +522,18 @@ template {
         margin-top: 0;
         padding-top: 15vh; }
     .films .howl p {
-      font-size: 30px; }
-      @media only screen and (min-width: 768px) {
-        .films .howl p {
-          font-size: 15px; } }
+      font-size: 12px; }
   .films .spirit {
-    height: 50vh; }
+    overflow: auto;
+    overflow-y: hidden; }
     @media only screen and (min-width: 768px) {
       .films .spirit {
         width: calc(50%);
+        float: left;
+        margin-left: 0; } }
+    @media only screen and (min-width: 1340px) {
+      .films .spirit {
+        width: calc(25%);
         float: left;
         margin-left: 0; } }
     .films .spirit #spirit-sec {
@@ -536,15 +547,18 @@ template {
         margin-top: 0;
         padding-top: 15vh; }
     .films .spirit p {
-      font-size: 30px; }
-      @media only screen and (min-width: 768px) {
-        .films .spirit p {
-          font-size: 15px; } }
+      font-size: 12px; }
   .films .kiki {
-    height: 50vh; }
+    overflow: auto;
+    overflow-y: hidden; }
     @media only screen and (min-width: 768px) {
       .films .kiki {
         width: calc(50%);
+        float: left;
+        margin-left: 0; } }
+    @media only screen and (min-width: 1340px) {
+      .films .kiki {
+        width: calc(25%);
         float: left;
         margin-left: 0; } }
     .films .kiki #kiki-sec {
@@ -558,15 +572,18 @@ template {
         margin-top: 0;
         padding-top: 15vh; }
     .films .kiki p {
-      font-size: 30px; }
-      @media only screen and (min-width: 768px) {
-        .films .kiki p {
-          font-size: 15px; } }
+      font-size: 12px; }
   .films .totoro {
-    height: 50vh; }
+    overflow: auto;
+    overflow-y: hidden; }
     @media only screen and (min-width: 768px) {
       .films .totoro {
         width: calc(50%);
+        float: left;
+        margin-left: 0; } }
+    @media only screen and (min-width: 1340px) {
+      .films .totoro {
+        width: calc(25%);
         float: left;
         margin-left: 0; } }
     .films .totoro #totoro-sec {
@@ -580,10 +597,7 @@ template {
         margin-top: 0;
         padding-top: 15vh; }
     .films .totoro p {
-      font-size: 30px; }
-      @media only screen and (min-width: 768px) {
-        .films .totoro p {
-          font-size: 15px; } }
+      font-size: 12px; }
 
 .hero-image {
   width: calc(100%);
@@ -603,6 +617,9 @@ template {
     @media only screen and (min-width: 768px) {
       .hero-image #title {
         font-size: 15vw; } }
+    @media only screen and (min-width: 768px) {
+      .hero-image #title {
+        font-size: 10vw; } }
   .hero-image #subtitle {
     color: white;
     text-shadow: 2px 2px 0px black;
@@ -636,13 +653,19 @@ template {
       text-align: right;
       padding-right: 2vw;
       margin-top: 10px;
-      font-size: 18px;
+      font-size: 10px;
       font-weight: bold; }
+      @media only screen and (min-width: 768px) {
+        .nav .page-links li {
+          font-size: 20px; } }
       .nav .page-links li a {
         text-decoration: none;
         color: white; }
         .nav .page-links li a:hover {
-          font-size: 24px; }
+          font-size: 18px; }
+          @media only screen and (min-width: 768px) {
+            .nav .page-links li a:hover {
+              font-size: 30px; } }
 
 .biography {
   width: calc(100%);
@@ -652,9 +675,10 @@ template {
   .biography h3 {
     color: #E24E42; }
   .biography .about {
-    height: 70vh; }
+    overflow: auto;
+    overflow-y: hidden; }
     .biography .about .portrait {
-      width: calc(41.66667%);
+      width: calc(50%);
       float: left;
       margin-left: 0;
       background-image: url("../img/portrait.jpeg");
@@ -662,20 +686,44 @@ template {
       background-size: cover;
       background-repeat: no-repeat;
       height: 30vh;
-      margin-left: 20px;
-      margin-bottom: 20px;
+      margin-left: 20vw;
       border-radius: 100%;
       border: 6px solid white;
       border-bottom-color: #008F95;
       border-left-color: #008F95; }
       @media only screen and (min-width: 768px) {
         .biography .about .portrait {
-          height: 70vh; } }
+          width: calc(25%);
+          float: left;
+          margin-left: 0;
+          margin-left: 20px;
+          margin-bottom: 20px; } }
+      @media only screen and (min-width: 1340px) {
+        .biography .about .portrait {
+          width: calc(16.66667%);
+          float: left;
+          margin-left: 0;
+          margin-left: 20px; } }
     .biography .about p {
-      width: calc(41.66667%);
+      width: calc(91.66667%);
       float: left;
       margin-left: 0;
-      margin-left: 30px;
-      font-size: 25px; }
+      font-size: 12px;
+      margin-left: 10px; }
+      @media only screen and (min-width: 768px) {
+        .biography .about p {
+          width: calc(66.66667%);
+          float: left;
+          margin-left: 0;
+          font-size: 18px;
+          margin-top: 0;
+          margin-left: 10px; } }
+      @media only screen and (min-width: 1340px) {
+        .biography .about p {
+          width: calc(75%);
+          float: left;
+          margin-left: 0;
+          font-size: 26px;
+          margin-left: 10px; } }
 
 /*# sourceMappingURL=output.css.map */

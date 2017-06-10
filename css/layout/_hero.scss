@@ -19,6 +19,9 @@
     @include tablet-breakpoint {
       font-size: 15vw;
     }
+    @include tablet-breakpoint {
+      font-size: 10vw;
+    }
   }
 
   #subtitle {
@@ -30,5 +33,6 @@
     @include tablet-breakpoint {
       font-size: 3vw;
     }
+
   }
 }
