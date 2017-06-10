@@ -10,6 +10,7 @@
   .about {
     overflow: auto;
     overflow-y: hidden;
+    overflow-x: hidden;
 
     .portrait {
       @include grid-column(6);

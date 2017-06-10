@@ -1,3 +1,6 @@
+html, body {
+  font-family: 'Lato', sans-serif; }
+
 .section-headers, .merch h3, .films h3, .biography h3 {
   text-align: center;
   font-size: 40px;
@@ -5,12 +8,16 @@
   margin-top: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: white; }
+  background-color: white;
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px 0px black; }
 
 .film-titles, .films .howl #howl-sec h4, .films .spirit #spirit-sec h4, .films .kiki #kiki-sec h4, .films .totoro #totoro-sec h4 {
   text-align: center;
   font-size: 36px;
-  color: white; }
+  color: white;
+  font-family: 'Courgette', cursive;
+  text-shadow: 2px 2px 0px black; }
 
 .p-styling, .merch .item1 .item-description p, .merch .item2 .item-description p, .merch .item3 .item-description p, .films .howl p, .films .spirit p, .films .kiki p, .films .totoro p, .biography .about p {
   color: white;
@@ -19,7 +26,8 @@
 .item-headers, .merch .item1 h4, .merch .item2 h4, .merch .item3 h4 {
   color: white;
   font-size: 25px;
-  text-shadow: 1px 1px 0px black; }
+  text-shadow: 1px 1px 0px black;
+  font-family: 'Courgette', cursive; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -435,7 +443,8 @@ template {
     margin-left: 0;
     overflow: auto;
     overflow-y: hidden;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 10px; }
     @media only screen and (min-width: 768px) {
       .merch .item1 {
         width: calc(33.33333%);
@@ -455,7 +464,8 @@ template {
     margin-left: 0;
     overflow: auto;
     overflow-y: hidden;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 10px; }
     @media only screen and (min-width: 768px) {
       .merch .item2 {
         width: calc(33.33333%);
@@ -475,7 +485,8 @@ template {
     margin-left: 0;
     overflow: auto;
     overflow-y: hidden;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 10px; }
     @media only screen and (min-width: 768px) {
       .merch .item3 {
         width: calc(33.33333%);
@@ -611,6 +622,7 @@ template {
   text-align: center; }
   .hero-image #title {
     color: white;
+    font-family: 'Courgette', cursive;
     text-shadow: 3px 3px 0px black;
     font-size: 20vw;
     margin: auto 0; }
@@ -665,7 +677,8 @@ template {
           font-size: 18px; }
           @media only screen and (min-width: 768px) {
             .nav .page-links li a:hover {
-              font-size: 30px; } }
+              font-size: 30px;
+              font-family: 'Courgette', cursive; } }
 
 .biography {
   width: calc(100%);
@@ -676,7 +689,8 @@ template {
     color: #E24E42; }
   .biography .about {
     overflow: auto;
-    overflow-y: hidden; }
+    overflow-y: hidden;
+    overflow-x: hidden; }
     .biography .about .portrait {
       width: calc(50%);
       float: left;
