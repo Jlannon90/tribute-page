@@ -29,6 +29,10 @@ html, body {
   text-shadow: 1px 1px 0px black;
   font-family: 'Courgette', cursive; }
 
+#name {
+  color: #008F95;
+  font-family: 'Courgette', cursive; }
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -623,7 +627,7 @@ template {
   .hero-image #title {
     color: white;
     font-family: 'Courgette', cursive;
-    text-shadow: 3px 3px 0px black;
+    text-shadow: 3px 3px 8px black;
     font-size: 20vw;
     margin: auto 0; }
     @media only screen and (min-width: 768px) {
@@ -634,7 +638,7 @@ template {
         font-size: 10vw; } }
   .hero-image #subtitle {
     color: white;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 2px 2px 8px black;
     font-size: 4.5vw;
     margin: auto 0; }
     @media only screen and (min-width: 768px) {
