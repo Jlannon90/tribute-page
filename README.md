@@ -8,6 +8,13 @@
 
 _{This is a webpage for the paying tribute to Miyazaki.}_
 
+## Screenshots
+Hero and Bio sections
+![First Section](https://github.com/Jlannon90/tribute-page/blob/master/miyazaki2%20copy.png)
+
+Bio and Filmography sections
+![Second Section](https://github.com/Jlannon90/tribute-page/blob/master/miyazaki1%20copy.png)
+
 ## Setup/Installation Requirements
 
 * _Clone this repository_
